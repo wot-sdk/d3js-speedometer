@@ -1,4 +1,6 @@
 exports = module.exports = iopctrl = function() {
+    var d3 = require('d3');
+
     var iopctrl = {
         version: "0.0.2"
     };
@@ -1157,7 +1159,3 @@ exports = module.exports = iopctrl = function() {
     
     return iopctrl;
 }();
-
-
-
-

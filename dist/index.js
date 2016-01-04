@@ -42518,6 +42518,8 @@ $(function() {
 
 },{"./iopctrl":97,"automationjs":1,"backbone":74,"d3":75,"jquery":94,"underscore":95}],97:[function(require,module,exports){
 exports = module.exports = iopctrl = function() {
+    var d3 = require('d3');
+
     var iopctrl = {
         version: "0.0.2"
     };
@@ -43677,8 +43679,4 @@ exports = module.exports = iopctrl = function() {
     return iopctrl;
 }();
 
-
-
-
-
-},{}]},{},[96])
+},{"d3":75}]},{},[96])
