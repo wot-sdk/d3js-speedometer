@@ -11,21 +11,20 @@ _wotsdk-d3js-speedomete_ is a package of single-page application boilerplate for
 | Browserify | Virtual DOM |
 | | D3.js |
 
-## How to use
+## How to use it
 
 1. Open `index.html` with your favorite browser. The web app page is empty now.
-2. Append the device name in the URL as an fronted routing parameter. For example `index.html#5547870f4dd3e08d63000007`
-
-3. Please obtain a device name by the following steps.
-
-3.1. Please visit [WoT.City Platform](http://wotcity.com).
-3.2. Signup to create your account.
-3.3. Login to your account.
-3.4. Click *Device Manager* at the left side menu.
-3.5. Click *Launch New Device* button to create a new device instance.
-3.6. Copy your device name at *Device Name (Physical Object)* column.
-
+2. Append the device name in the URL as an fronted routing parameter. For example `index.html#5547870f4dd3e08d63000007`, please read below section of how to get a name.
 4. For web developers, please open _index.html_ to design your own application fronted.
+
+## How to get device name
+
+1. Please visit [WoT.City Platform](http://wotcity.com).
+2. Signup to create your account.
+3. Login to your account.
+4. Click *Device Manager* at the left side menu.
+5. Click *Launch New Device* button to create a new device instance.
+6. Copy your device name at *Device Name (Physical Object)* column.
 
 NOTICE: If you don’t want to use WoT.City platform to generate the device name, you can name it your own.
 
