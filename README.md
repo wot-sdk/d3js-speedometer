@@ -1,8 +1,6 @@
 # wotsdk-d3js-speedomete
 
-## Technology
-
-wotsdk-d3js-speedomete is a package of single-page application boilerplate for Web of Things application.
+_wotsdk-d3js-speedomete_ is a package of single-page application boilerplate for Web of Things application. It has contained the following technologies.
 
 | Development | Frontend  |
 | —————— | ——————— |
@@ -13,50 +11,27 @@ wotsdk-d3js-speedomete is a package of single-page application boilerplate for W
 | Browserify         | Virtual DOM   |
 | EmailJS       | D3.js      |
 
-## Prerequisites
+## How to use
 
-1. [Node.js](https://nodejs.org). Note: Node should be with a version above 0.10.x.
-2. [Gulp](http://gulpjs.com). Note: Run `$ nom install —global gulp` to install the latest version.
-3. [Bower](http://bower.io). Note: Run `$ nom install —global bower` to install the latest versin.
-4. Note: `git` command line interface is needed for Bower.
+1. Open `index.html` with your favorite browser. The web app page is empty now.
+2. Append the device name in the URL as an fronted routing parameter. For example `index.html#5547870f4dd3e08d63000007`
 
-## Compile and Install
+3. Please obtain a device name by the following steps.
 
-1. Run `$ git clone https://github.com/wot-sdk/d3js-speedomete`  to download SDK.
-2. Run `$ cd d3js-speedomete` to change the directory.
-3. Run `$ npm install --global gulp` to install Gulp globally if you don’t already have it.
-4. Run `$ npm install --global bower` to install Bower globally if you don’t already have it.
-5. Run `$ npm install` to install the dependencies if you don't already have them.
-6. Run `$ bower install` to install the module dependencies if your don't already have them.
-7. Run `$ gulp build` to build the application scripts.
-8. Open `index.html` with your farovite browser. The web app page is empty now.
-9. Append the device name in the URL as an frontend routing parameter. For example `index.html#5547870f4dd3e08d63000007`
+3.1 Please visit [WoT.City Platform](http://wotcity.com).
+3.2 Signup to create your account.
+3.3 Login to your account.
+3.4 Click *Device Manager* at the left side menu.
+3.5 Click *Launch New Device* button to create a new device instance.
+3.6 Copy your device name at *Device Name (Physical Object)* column.
 
-### Getting the device name
+NOTICE: If you don’t want to use WoT.City platform to generate the device name, you can name it your own.
 
-1. Please visit [WoT.City Platform](http://wotcity.com).
-2. Signup to create your account.
-3. Login to your account.
-4. Click *Device Manager* at the left side menu.
-5. Click *Launch New Device* button to create a new device instance.
-6. Copy your device name at *Device Name (Physical Object)* column.
+4. For web developers, please open _index.html_ to design your own application fronted.
 
-## Discussion
+## Developers
 
-There are various ways to get involved with WoT-SDK project. We're looking for help identifying bugs, writing documentation and contributing codes.
-	
-## How to Report Bugs
-
-Bugs are reported via [https://github.com/wot-sdk/d3js-speedomete](https://github.com/wot-sdk/d3js-speedomete).
-
-## Core Style Guide
-
-WoT-SDK project follows [jQuery's Style Guides](http://contribute.jquery.org/style-guide/) except that:
-
-* `forin` must be used in WoT-SDK project.
-* `quotmark` must be `single`. Strings must use singlequote.
-
-WoT-SDK project uses JSHint to validate code styles. The JSHint options are stored in the `.jshintrc` file. Run `$ gulp jshint` to detect errors.
+Please read [Compile.md](Compile.md) for developing and compiling this package.
 
 ## License
 
