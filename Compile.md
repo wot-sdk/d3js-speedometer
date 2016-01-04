@@ -1,17 +1,6 @@
 # wotsdk-d3js-speedomete
 
-## Technology
-
-wotsdk-d3js-speedomete is a package of single-page application boilerplate for Web of Things application.
-
-| Development | Frontend  |
-| —————— | ——————— |
-| Node.js       | Backbone      |
-| Gulp          | AutomationJS    |
-| Bower      | jQuery         |
-| npm      | Underscore  |
-| Browserify         | Virtual DOM   |
-| EmailJS       | D3.js      |
+wotsdk-d3js-speedomete is a package of single-page application boilerplate for Web of Things application. This guide is for developers to modify and compile the source.
 
 ## Prerequisites
 
