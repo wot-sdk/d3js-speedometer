@@ -1,6 +1,6 @@
 /**
  *
- *  .CITY Starter Kit
+ *  WoT-SDK 
  *  Copyright 2015 WoT.City Inc. All rights reserved.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
@@ -48,7 +48,7 @@ app.Container = Backbone.Model.extend({
     return '/';
   },
   wsUrl: function() {
-    return 'ws://wot.city/object/' + this.attributes.name + '/viewer';
+    return 'wss://wot.city/object/' + this.attributes.name + '/viewer';
   },
   defaults: {
     name: 'test',
